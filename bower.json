@@ -1,0 +1,29 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "authors": [
+    "Joanna Ong <ongjfu@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-cookies": "1.4.x",
+    "angular-resource": "1.4.x",
+    "angular-mocks": "1.4.x",
+    "angular-animate": "1.4.x",
+    "angular-sanitize": "1.4.x",
+    "angular-touch": "1.4.x",
+    "firebase": "2.2.x",
+    "angular-ui-router": "0.2.x",
+    "jquery": "2.x.x",
+    "angularfire": "1.1.x",
+    "material-design-lite": "~1.0.4"
+  }
+}

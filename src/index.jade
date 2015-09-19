@@ -1,0 +1,20 @@
+doctype html
+html(class="no-js" ng-app="app")
+  head
+    base(href="/")
+    meta(charset="utf-8")
+    title app
+    meta(name="description" content="")
+    meta(name="viewport" content="width=device-width")
+    link(rel="stylesheet" href="styles/vendor.min.css")
+    link(rel="stylesheet" href="styles/main.css")
+
+  body
+    div.wrapper(ui-view)
+      a(ui-sref="home") home
+
+      div.content(ui-view="content")
+
+    script(src="scripts/vendor.min.js")
+    script(src="scripts/templates.min.js")
+    script(src="scripts/app.js")
